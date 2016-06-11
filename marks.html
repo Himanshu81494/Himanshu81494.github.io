@@ -1,574 +1,97 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-                <link rel="stylesheet" href="http://nsitpercentage.appspot.com/css/bootstrap.min.css">
-                    <link rel="stylesheet" href="http://nsitpercentage.appspot.com/css/bootstrap-select.min.css">
-                        <link rel="stylesheet" href="http://nsitpercentage.appspot.com/css/footer.css">
-                            <title>NSITulator - The NSIT percentage calculator</title>
-                            <script async="" src="./NSITulator - The NSIT percentage calculator_files/analytics.js"></script>
-                            <script src="./NSITulator - The NSIT percentage calculator_files/allSubjects.js"></script>
-                            <!-- <script src="myMarks.js"></script> -->
-                            <script type="text/javascript" src="./NSITulator - The NSIT percentage calculator_files/jquery-2.1.1.js"></script>
-                            <script type="text/javascript" src="./NSITulator - The NSIT percentage calculator_files/calculator.js"></script>
-                        </head>
-                        <body cz-shortcut-listen="true">
-                            <div>
-                                <div class="col-md-6" id="mainContainer" style="max-width: 50%; margin-top: 2%; margin-left: 2%; margin-bottom: 10%; border: 2px solid rgb(228, 228, 228);">
-                                    <table class="table table-hover">
-                                        <caption>Semester1</caption>
-                                        <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>Code</th>
-                                                <th>Name</th>
-                                                <th>Marks</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>TH1</td>
-                                                <td>COE101</td>
-                                                <td>Humanities</td>
-                                                <td>
-                                                    <div class="label2">
-                                                        <input type="number" id="1TH1" value = 67>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>TH2</td>
-                                                    <td>COE102</td>
-                                                    <td>Mathematics I</td>
-                                                    <td>
-                                                        <div class="label2">
-                                                            <input type="number" id="1TH2" value = 61>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>TH3</td>
-                                                        <td>COE103</td>
-                                                        <td>Physics I</td>
-                                                        <td>
-                                                            <div class="label2">
-                                                                <input type="number" id="1TH3" value = 86>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>TH4</td>
-                                                            <td>COE104</td>
-                                                            <td>Chemistry</td>
-                                                            <td>
-                                                                <div class="label2">
-                                                                    <input type="number" id="1TH4" value = 84>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>TH5</td>
-                                                                <td>COE105</td>
-                                                                <td>Manufacturing Processes</td>
-                                                                <td>
-                                                                    <div class="label2">
-                                                                        <input type="number" id="1TH5" value = 72>
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>PR1</td>
-                                                                    <td>COE106</td>
-                                                                    <td>Engineering Drawing T</td>
-                                                                    <td>
-                                                                        <div class="label2">
-                                                                            <input type="number" id="1PR1" value = 48>
-                                                                            </div>
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>PR2</td>
-                                                                        <td>COE107</td>
-                                                                        <td>Physics I</td>
-                                                                        <td>
-                                                                            <div class="label2">
-                                                                                <input type="number" id="1PR2" value = 55>
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td>PR3</td>
-                                                                            <td>COE108</td>
-                                                                            <td>Chemistry</td>
-                                                                            <td>
-                                                                                <div class="label2">
-                                                                                    <input type="number" id="1PR3" value = 80>
-                                                                                    </div>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>PR4</td>
-                                                                                <td>COE109</td>
-                                                                                <td>Workshop I</td>
-                                                                                <td>
-                                                                                    <div class="label2">
-                                                                                        <input type="number" id="1PR4" value = 58>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                        <table class="table table-hover">
-                                                                            <caption>Semester2</caption>
-                                                                            <thead>
-                                                                                <tr>
-                                                                                    <th>#</th>
-                                                                                    <th>Code</th>
-                                                                                    <th>Name</th>
-                                                                                    <th>Marks</th>
-                                                                                </tr>
-                                                                            </thead>
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td>TH1</td>
-                                                                                    <td>COE111</td>
-                                                                                    <td>Principles of Electrical Engg</td>
-                                                                                    <td>
-                                                                                        <div class="label2">
-                                                                                            <input type="number" id="2TH1" value = 75>
-                                                                                            </div>
-                                                                                        </td>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                        <td>TH2</td>
-                                                                                        <td>COE112</td>
-                                                                                        <td>Applied Mechanics</td>
-                                                                                        <td>
-                                                                                            <div class="label2">
-                                                                                                <input type="number" id="2TH2" value = 58>
-                                                                                                </div>
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                        <tr>
-                                                                                            <td>TH3</td>
-                                                                                            <td>COE113</td>
-                                                                                            <td>Mathematics II</td>
-                                                                                            <td>
-                                                                                                <div class="label2">
-                                                                                                    <input type="number" id="2TH3" value = 59>
-                                                                                                    </div>
-                                                                                                </td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <td>TH4</td>
-                                                                                                <td>COE114</td>
-                                                                                                <td>Introduction to Programming</td>
-                                                                                                <td>
-                                                                                                    <div class="label2">
-                                                                                                        <input type="number" id="2TH4" value = 65>
-                                                                                                        </div>
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>TH5</td>
-                                                                                                    <td>COE115</td>
-                                                                                                    <td>Physics of Materials</td>
-                                                                                                    <td>
-                                                                                                        <div class="label2">
-                                                                                                            <input type="number" id="2TH5" value = 67>
-                                                                                                            </div>
-                                                                                                        </td>
-                                                                                                    </tr>
-                                                                                                    <tr>
-                                                                                                        <td>PR1</td>
-                                                                                                        <td>COE116</td>
-                                                                                                        <td>Principles of Electrical Engg</td>
-                                                                                                        <td>
-                                                                                                            <div class="label2">
-                                                                                                                <input type="number" id="2PR1" value = 73>
-                                                                                                                </div>
-                                                                                                            </td>
-                                                                                                        </tr>
-                                                                                                        <tr>
-                                                                                                            <td>PR2</td>
-                                                                                                            <td>COE117</td>
-                                                                                                            <td>Applied Mechanics</td>
-                                                                                                            <td>
-                                                                                                                <div class="label2">
-                                                                                                                    <input type="number" id="2PR2" value = 62>
-                                                                                                                    </div>
-                                                                                                                </td>
-                                                                                                            </tr>
-                                                                                                            <tr>
-                                                                                                                <td>PR3</td>
-                                                                                                                <td>COE118</td>
-                                                                                                                <td>Introduction to Programming</td>
-                                                                                                                <td>
-                                                                                                                    <div class="label2">
-                                                                                                                        <input type="number" id="2PR3" value = 61>
-                                                                                                                        </div>
-                                                                                                                    </td>
-                                                                                                                </tr>
-                                                                                                                <tr>
-                                                                                                                    <td>PR4</td>
-                                                                                                                    <td>COE119</td>
-                                                                                                                    <td>Physics of Materials</td>
-                                                                                                                    <td>
-                                                                                                                        <div class="label2">
-                                                                                                                            <input type="number" id="2PR4" value = 74>
-                                                                                                                            </div>
-                                                                                                                        </td>
-                                                                                                                    </tr>
-                                                                                                                </tbody>
-                                                                                                            </table>
-                                                                                                            <table class="table table-hover">
-                                                                                                                <caption>Semester3</caption>
-                                                                                                                <thead>
-                                                                                                                    <tr>
-                                                                                                                        <th>#</th>
-                                                                                                                        <th>Code</th>
-                                                                                                                        <th>Name</th>
-                                                                                                                        <th>Marks</th>
-                                                                                                                    </tr>
-                                                                                                                </thead>
-                                                                                                                <tbody>
-                                                                                                                    <tr>
-                                                                                                                        <td>TH1</td>
-                                                                                                                        <td>COE201</td>
-                                                                                                                        <td>Electronics I</td>
-                                                                                                                        <td>
-                                                                                                                            <div class="label2">
-                                                                                                                                <input type="number" id="3TH1" value = 73>
-                                                                                                                                </div>
-                                                                                                                            </td>
-                                                                                                                        </tr>
-                                                                                                                        <tr>
-                                                                                                                            <td>TH2</td>
-                                                                                                                            <td>COE202</td>
-                                                                                                                            <td>Circuits and Systems</td>
-                                                                                                                            <td>
-                                                                                                                                <div class="label2">
-                                                                                                                                    <input type="number" id="3TH2" value = 64>
-                                                                                                                                    </div>
-                                                                                                                                </td>
-                                                                                                                            </tr>
-                                                                                                                            <tr>
-                                                                                                                                <td>TH3</td>
-                                                                                                                                <td>COE203</td>
-                                                                                                                                <td>Power Apparatus</td>
-                                                                                                                                <td>
-                                                                                                                                    <div class="label2">
-                                                                                                                                        <input type="number" id="3TH3" value = 66>
-                                                                                                                                        </div>
-                                                                                                                                    </td>
-                                                                                                                                </tr>
-                                                                                                                                <tr>
-                                                                                                                                    <td>TH4</td>
-                                                                                                                                    <td>COE204</td>
-                                                                                                                                    <td>Electrical Measurements</td>
-                                                                                                                                    <td>
-                                                                                                                                        <div class="label2">
-                                                                                                                                            <input type="number" id="3TH4" value = 73>
-                                                                                                                                            </div>
-                                                                                                                                        </td>
-                                                                                                                                    </tr>
-                                                                                                                                    <tr>
-                                                                                                                                        <td>TH5</td>
-                                                                                                                                        <td>COE205</td>
-                                                                                                                                        <td>Mathematics III</td>
-                                                                                                                                        <td>
-                                                                                                                                            <div class="label2">
-                                                                                                                                                <input type="number" id="3TH5" value = 59>
-                                                                                                                                                </div>
-                                                                                                                                            </td>
-                                                                                                                                        </tr>
-                                                                                                                                        <tr>
-                                                                                                                                            <td>PR1</td>
-                                                                                                                                            <td>COE206</td>
-                                                                                                                                            <td>Electronics I</td>
-                                                                                                                                            <td>
-                                                                                                                                                <div class="label2">
-                                                                                                                                                    <input type="number" id="3PR1" value = 85>
-                                                                                                                                                    </div>
-                                                                                                                                                </td>
-                                                                                                                                            </tr>
-                                                                                                                                            <tr>
-                                                                                                                                                <td>PR2</td>
-                                                                                                                                                <td>COE207</td>
-                                                                                                                                                <td>Power Apparatus</td>
-                                                                                                                                                <td>
-                                                                                                                                                    <div class="label2">
-                                                                                                                                                        <input type="number" id="3PR2" value = 78>
-                                                                                                                                                        </div>
-                                                                                                                                                    </td>
-                                                                                                                                                </tr>
-                                                                                                                                                <tr>
-                                                                                                                                                    <td>PR3</td>
-                                                                                                                                                    <td>COE208</td>
-                                                                                                                                                    <td>Electrical Measurements</td>
-                                                                                                                                                    <td>
-                                                                                                                                                        <div class="label2">
-                                                                                                                                                            <input type="number" id="3PR3" value = 86>
-                                                                                                                                                            </div>
-                                                                                                                                                        </td>
-                                                                                                                                                    </tr>
-                                                                                                                                                    <tr>
-                                                                                                                                                        <td>PR4</td>
-                                                                                                                                                        <td>COE209</td>
-                                                                                                                                                        <td>Machine Drawing</td>
-                                                                                                                                                        <td>
-                                                                                                                                                            <div class="label2">
-                                                                                                                                                                <input type="number" id="3PR4" value = 68>
-                                                                                                                                                                </div>
-                                                                                                                                                            </td>
-                                                                                                                                                        </tr>
-                                                                                                                                                        <tr>
-                                                                                                                                                            <td>VS1</td>
-                                                                                                                                                            <td>COE210</td>
-                                                                                                                                                            <td>Programming I</td>
-                                                                                                                                                            <td>
-                                                                                                                                                                <div class="label2">
-                                                                                                                                                                    <input type="number" id="3VS1" value = 80>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </td>
-                                                                                                                                                            </tr>
-                                                                                                                                                        </tbody>
-                                                                                                                                                    </table>
-                                                                                                                                                    <table class="table table-hover">
-                                                                                                                                                        <caption>Semester4</caption>
-                                                                                                                                                        <thead>
-                                                                                                                                                            <tr>
-                                                                                                                                                                <th>#</th>
-                                                                                                                                                                <th>Code</th>
-                                                                                                                                                                <th>Name</th>
-                                                                                                                                                                <th>Marks</th>
-                                                                                                                                                            </tr>
-                                                                                                                                                        </thead>
-                                                                                                                                                        <tbody>
-                                                                                                                                                            <tr>
-                                                                                                                                                                <td>TH1</td>
-                                                                                                                                                                <td>COE211</td>
-                                                                                                                                                                <td>Electronics II</td>
-                                                                                                                                                                <td>
-                                                                                                                                                                    <div class="label2">
-                                                                                                                                                                        <input type="number" id="4TH1" value = 45>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </td>
-                                                                                                                                                                </tr>
-                                                                                                                                                                <tr>
-                                                                                                                                                                    <td>TH2</td>
-                                                                                                                                                                    <td>COE212</td>
-                                                                                                                                                                    <td>Electromagnetics I</td>
-                                                                                                                                                                    <td>
-                                                                                                                                                                        <div class="label2">
-                                                                                                                                                                            <input type="number" id="4TH2" value = 62>
-                                                                                                                                                                            </div>
-                                                                                                                                                                        </td>
-                                                                                                                                                                    </tr>
-                                                                                                                                                                    <tr>
-                                                                                                                                                                        <td>TH3</td>
-                                                                                                                                                                        <td>COE213</td>
-                                                                                                                                                                        <td>Data Structures</td>
-                                                                                                                                                                        <td>
-                                                                                                                                                                            <div class="label2">
-                                                                                                                                                                                <input type="number" id="4TH3" value = 59>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </td>
-                                                                                                                                                                        </tr>
-                                                                                                                                                                        <tr>
-                                                                                                                                                                            <td>TH4</td>
-                                                                                                                                                                            <td>COE214</td>
-                                                                                                                                                                            <td>Digital Circuits and Systems I</td>
-                                                                                                                                                                            <td>
-                                                                                                                                                                                <div class="label2">
-                                                                                                                                                                                    <input type="number" id="4TH4" value = 53>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </td>
-                                                                                                                                                                            </tr>
-                                                                                                                                                                            <tr>
-                                                                                                                                                                                <td>TH5</td>
-                                                                                                                                                                                <td>COE215</td>
-                                                                                                                                                                                <td>Principles of Communication Engg.</td>
-                                                                                                                                                                                <td>
-                                                                                                                                                                                    <div class="label2">
-                                                                                                                                                                                        <input type="number" id="4TH5" value = 69>
-                                                                                                                                                                                        </div>
-                                                                                                                                                                                    </td>
-                                                                                                                                                                                </tr>
-                                                                                                                                                                                <tr>
-                                                                                                                                                                                    <td>PR1</td>
-                                                                                                                                                                                    <td>COE216</td>
-                                                                                                                                                                                    <td>Electronics II</td>
-                                                                                                                                                                                    <td>
-                                                                                                                                                                                        <div class="label2">
-                                                                                                                                                                                            <input type="number" id="4PR1" value = 75>
-                                                                                                                                                                                            </div>
-                                                                                                                                                                                        </td>
-                                                                                                                                                                                    </tr>
-                                                                                                                                                                                    <tr>
-                                                                                                                                                                                        <td>PR2</td>
-                                                                                                                                                                                        <td>COE217</td>
-                                                                                                                                                                                        <td>Digital Circuits and Systems I</td>
-                                                                                                                                                                                        <td>
-                                                                                                                                                                                            <div class="label2">
-                                                                                                                                                                                                <input type="number" id="4PR2" value = 85>
-                                                                                                                                                                                                </div>
-                                                                                                                                                                                            </td>
-                                                                                                                                                                                        </tr>
-                                                                                                                                                                                        <tr>
-                                                                                                                                                                                            <td>PR3</td>
-                                                                                                                                                                                            <td>COE218</td>
-                                                                                                                                                                                            <td>Principles of Communication Engg.</td>
-                                                                                                                                                                                            <td>
-                                                                                                                                                                                                <div class="label2">
-                                                                                                                                                                                                    <input type="number" id="4PR3" value = 64>
-                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                </td>
-                                                                                                                                                                                            </tr>
-                                                                                                                                                                                            <tr>
-                                                                                                                                                                                                <td>PR4</td>
-                                                                                                                                                                                                <td>COE219</td>
-                                                                                                                                                                                                <td>Electrical Workshop and Electric Drg.</td>
-                                                                                                                                                                                                <td>
-                                                                                                                                                                                                    <div class="label2">
-                                                                                                                                                                                                        <input type="number" id="4PR4" value = 91>
-                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                    </td>
-                                                                                                                                                                                                </tr>
-                                                                                                                                                                                                <tr>
-                                                                                                                                                                                                    <td>PR5</td>
-                                                                                                                                                                                                    <td>COE220</td>
-                                                                                                                                                                                                    <td>Practical Training</td>
-                                                                                                                                                                                                    <td>
-                                                                                                                                                                                                        <div class="label2">
-                                                                                                                                                                                                            <input type="number" id="4PR5" value = 70>
-                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                        </td>
-                                                                                                                                                                                                    </tr>
-                                                                                                                                                                                                    <tr>
-                                                                                                                                                                                                        <td>VS1</td>
-                                                                                                                                                                                                        <td>COE221</td>
-                                                                                                                                                                                                        <td>Report Writing</td>
-                                                                                                                                                                                                        <td>
-                                                                                                                                                                                                            <div class="label2">
-                                                                                                                                                                                                                <input type="number" id="4VS1" value = 65>
-                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                            </td>
-                                                                                                                                                                                                        </tr>
-                                                                                                                                                                                                        <tr>
-                                                                                                                                                                                                            <td>VS2</td>
-                                                                                                                                                                                                            <td>COE222</td>
-                                                                                                                                                                                                            <td>Programming II</td>
-                                                                                                                                                                                                            <td>
-                                                                                                                                                                                                                <div class="label2">
-                                                                                                                                                                                                                    <input type="number" id="4VS2" value = 80>
-                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                </td>
-                                                                                                                                                                                                            </tr>
-                                                                                                                                                                                                        </tbody>
-                                                                                                                                                                                                    </table>
-                                                                                                                                                                                                    <!--<button onclick="calculate(1);" class="btn btn-default" style="margin-bottom:1%;">Calculate</button>&nbsp;&nbsp;&nbsp;
-                                                                                                                                                                                                    <button onclick="loadFromLocal();" class="btn btn-default" style="margin-bottom:1%;">Show Last Calculated Marks</button>&nbsp;&nbsp;&nbsp;
-                                                                                                                                                                                                    <button onclick="exportToLocal();" class="btn btn-default" style="margin-bottom:1%;">Export Last Calculated marks</button>&nbsp;&nbsp;&nbsp;
-                                                                                                                                                                                                    <button onclick="importFromLocal();" class="btn btn-default" style="margin-bottom:1%;">Import marks</button>
-                                                                                                                                                                                                    <input type="file" accept=".json" id="fileElem" style="display:none" onchange="importJSON(this.files)">-->
-                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                    <div class="col-md-6" id="dataContainer" style="margin: 2% 5% 10% 3%; max-width: 40%;">
-                                                                                                                                                                                                        <div class="panel panel-info" id="sem1Panel">
-                                                                                                                                                                                                            <div class="panel-heading">Semester 1</div>
-                                                                                                                                                                                                            <div class="panel-body" id="sem1PanelBody">
-                                                                                                                                                                                                                <h4>Sem 1 Total Marks: 2010</h4>
-                                                                                                                                                                                                                <h4>Sem 1 Credits: 29</h4>
-                                                                                                                                                                                                                <h3>Sem 1 Percentage: 69.3103448275862</h3>
-                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                        <div class="panel panel-info" id="sem2Panel">
-                                                                                                                                                                                                            <div class="panel-heading">Semester 2</div>
-                                                                                                                                                                                                            <div class="panel-body" id="sem2PanelBody">
-                                                                                                                                                                                                                <h4>Sem 2 Total Marks: 1836</h4>
-                                                                                                                                                                                                                <h4>Sem 2 Credits: 28</h4>
-                                                                                                                                                                                                                <h3>Sem 2 Percentage: 65.57142857142857</h3>
-                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                        <div class="panel panel-info" id="sem3Panel">
-                                                                                                                                                                                                            <div class="panel-heading">Semester 3</div>
-                                                                                                                                                                                                            <div class="panel-body" id="sem3PanelBody">
-                                                                                                                                                                                                                <h4>Sem 3 Total Marks: 2122</h4>
-                                                                                                                                                                                                                <h4>Sem 3 Credits: 30</h4>
-                                                                                                                                                                                                                <h3>Sem 3 Percentage: 70.73333333333333</h3>
-                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                        <div class="panel panel-info" id="sem4Panel">
-                                                                                                                                                                                                            <div class="panel-heading">Semester 4</div>
-                                                                                                                                                                                                            <div class="panel-body" id="sem4PanelBody">
-                                                                                                                                                                                                                <h4>Sem 4 Total Marks: 2067</h4>
-                                                                                                                                                                                                                <h4>Sem 4 Credits: 32</h4>
-                                                                                                                                                                                                                <h3>Sem 4 Percentage: 64.59375</h3>
-                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                        <div class="panel panel-warning" id="overallPanel">
-                                                                                                                                                                                                            <div class="panel-heading">Overall</div>
-                                                                                                                                                                                                            <div class="panel-body" id="overallPanelBody">
-                                                                                                                                                                                                                <h4>Overall Total Marks: 8035</h4>
-                                                                                                                                                                                                                <h4>Overall Credits: 119</h4>
-                                                                                                                                                                                                                <h3>Overall Percentage: 67.52100840336135</h3>
-                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                        <div class="panel panel-success" id="dropPanel">
-                                                                                                                                                                                                            <div class="panel-heading">After Dropping</div>
-                                                                                                                                                                                                            <div class="panel-body" id="dropPanelBody">
-                                                                                                                                                                                                                <h5>Dropping:
-                                                                                                                                                                                                                    <br>Humanities- Mathematics II, 59
-                                                                                                                                                                                                                        <br>Applied- Applied Mechanics, 58
-                                                                                                                                                                                                                            <br>Core- Electronics II, 45
-                                                                                                                                                                                                                            </h5>
-                                                                                                                                                                                                                            <br>
-                                                                                                                                                                                                                                <h4>Overall Total Marks (after dropping): 7387</h4>
-                                                                                                                                                                                                                                <br>
-                                                                                                                                                                                                                                    <h4>Overall Credits (after dropping): 107</h4>
-                                                                                                                                                                                                                                    <br>
-                                                                                                                                                                                                                                        <h3>Percentage (after dropping): 69.03738317757009</h3>
-                                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                        <script>
-		// function getUrlParameter(sParam)
-		// {
-		//     var sPageURL = window.location.search.substring(1);
-		//     var sURLVariables = sPageURL.split('&');
-		//     for (var i = 0; i < sURLVariables.length; i++) 
-		//     {
-		//         var sParameterName = sURLVariables[i].split('=');
-		//         if (sParameterName[0] == sParam) 
-		//         {
-		//             return sParameterName[1];
-		//         }
-		//     }
-		// }
-		// numberOfSems = getUrlParameter('sems');
-		// branchName = getUrlParameter('branch');
-		// if (branchName && numberOfSems) {
-		// 	// document.getElementById('optionsContainer').style.display = 'none';
-		// 	loadForm();
-		// }
-		// debug = getUrlParameter('debug');
-		// if (!debug)
-		// 	debug = false;
-	
-                                                                                                                                                                                                                        </script>
-                                                                                                                                                                                                                        <script type="text/javascript" src="./NSITulator - The NSIT percentage calculator_files/bootstrap.min.js"></script>
-                                                                                                                                                                                                                        <script type="text/javascript" src="./NSITulator - The NSIT percentage calculator_files/bootstrap-select.min.js"></script>
-                                                                                                                                                                                                                        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-62624607-1', 'auto');
-  ga('send', 'pageview');
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <title>marks</title>
+  </head>
+  <body class="container-fluid" cz-shortcut-listen="true">
+    
+    
+    
 
-	</script>
-                                                                                                                                                                                                                    </body>
-                                                                                                                                                                                                                </html>
+      <table class="table table-hover sem-marks" id="marksOf2" ><caption> Semester1</caption>
+      <thead><tr><th>#</th><th>Code</th><th>Name</th><th>Credits</th><th>Marks</th></tr></thead><tbody><tr>
+      <td>TH1</td><td>COE101</td><td>Humanities</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="1TH1" value="67"></div></td></tr><tr>
+      <td>TH2</td><td>COE102</td><td>Mathematics I</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="1TH2" value="61"></div></td></tr><tr>
+      <td>TH3</td><td>COE103</td><td>Physics I</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="1TH3" value="86"></div></td></tr><tr>
+      <td>TH4</td><td>COE104</td><td>Chemistry</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="1TH4" value="84"></div></td></tr><tr>
+      <td>TH5</td><td>COE105</td><td>Manufacturing Processes</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="1TH5" value="72"></div></td></tr><tr>
+      <td>PR1</td><td>COE106</td><td>Engineering Drawing T</td><td>3</td><td><div class="label2"><input type="number" min="0" max="100" id="1PR1" value="48"></div></td></tr><tr>
+      <td>PR2</td><td>COE107</td><td>Physics I</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="1PR2" value="55"></div></td></tr><tr>
+      <td>PR3</td><td>COE108</td><td>Chemistry</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="1PR3" value="80"></div></td></tr><tr>
+      <td>PR4</td><td>COE109</td><td>Workshop I</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="1PR4" value="58"></div></td></tr></tbody></table>
+
+      <table class="table table-hover sem-marks" id="marksOf2" ><caption> Semester2</caption><thead><tr><th>#</th><th>Code</th><th>Name</th><th>Credits</th><th>Marks</th></tr></thead><tbody><tr><td>TH1</td><td>COE111</td><td>Principles of Electrical Engg</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="2TH1" value="75"></div></td></tr><tr><td>TH2</td><td>COE112</td><td>Applied Mechanics</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="2TH2" value="58"></div></td></tr><tr><td>TH3</td><td>COE113</td><td>Mathematics II</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="2TH3" value="59"></div></td></tr><tr><td>TH4</td><td>COE114</td><td>Introduction to Programming</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="2TH4" value="65"></div></td></tr><tr><td>TH5</td><td>COE115</td><td>Physics of Materials</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="2TH5" value="67"></div></td></tr><tr><td>PR1</td><td>COE116</td><td>Principles of Electrical Engg</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="2PR1" value="73"></div></td></tr><tr><td>PR2</td><td>COE117</td><td>Applied Mechanics</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="2PR2" value="62"></div></td></tr><tr><td>PR3</td><td>COE118</td><td>Introduction to Programming</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="2PR3" value="61"></div></td></tr><tr><td>PR4</td><td>COE119</td><td>Physics of Materials</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="2PR4" value="74"></div></td></tr></tbody></table>
+
+      <table class="table table-hover sem-marks" id="marksOf3" ><caption> Semester3</caption><thead><tr><th>#</th><th>Code</th><th>Name</th><th>Credits</th><th>Marks</th></tr></thead><tbody><tr><td>TH1</td><td>COE201</td><td>Electronics I</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="3TH1" value="73"></div></td></tr><tr><td>TH2</td><td>COE202</td><td>Circuits and Systems</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="3TH2" value="64"></div></td></tr><tr><td>TH3</td><td>COE203</td><td>Power Apparatus</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="3TH3" value="66"></div></td></tr><tr><td>TH4</td><td>COE204</td><td>Electrical Measurements</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="3TH4" value="73"></div></td></tr><tr><td>TH5</td><td>COE205</td><td>Mathematics III</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="3TH5" value="59"></div></td></tr><tr><td>PR1</td><td>COE206</td><td>Electronics I</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="3PR1" value="85"></div></td></tr><tr><td>PR2</td><td>COE207</td><td>Power Apparatus</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="3PR2" value="78"></div></td></tr><tr><td>PR3</td><td>COE208</td><td>Electrical Measurements</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="3PR3" value="86"></div></td></tr><tr><td>PR4</td><td>COE209</td><td>Machine Drawing</td><td>3</td><td><div class="label2"><input type="number" min="0" max="100" id="3PR4" value="68"></div></td></tr><tr><td>VS1</td><td>COE210</td><td>Programming I</td><td>1</td><td><div class="label2"><input type="number" min="0" max="100" id="3VS1" value="80"></div></td></tr></tbody></table>
+
+
+      <table class="table table-hover sem-marks" id="marksOf4" ><caption> Semester4</caption><thead><tr><th>#</th><th>Code</th><th>Name</th><th>Credits</th><th>Marks</th></tr></thead><tbody><tr><td>TH1</td><td>COE211</td><td>Electronics II</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="4TH1" value="45"></div></td></tr><tr><td>TH2</td><td>COE212</td><td>Electromagnetics I</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="4TH2" value="62"></div></td></tr><tr><td>TH3</td><td>COE213</td><td>Data Structures</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="4TH3" value="59"></div></td></tr><tr><td>TH4</td><td>COE214</td><td>Digital Circuits and Systems I</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="4TH4" value="53"></div></td></tr><tr><td>TH5</td><td>COE215</td><td>Principles of Communication Engg.</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="4TH5" value="69"></div></td></tr><tr><td>PR1</td><td>COE216</td><td>Electronics II</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="4PR1" value="75"></div></td></tr><tr><td>PR2</td><td>COE217</td><td>Digital Circuits and Systems I</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="4PR2" value="85"></div></td></tr><tr><td>PR3</td><td>COE218</td><td>Principles of Communication Engg.</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="4PR3" value="64"></div></td></tr><tr><td>PR4</td><td>COE219</td><td>Electrical Workshop and Electric Drg.</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="4PR4" value="91"></div></td></tr><tr><td>PR5</td><td>COE220</td><td>Practical Training</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="4PR5" value="70"></div></td></tr><tr><td>VS1</td><td>COE221</td><td>Report Writing</td><td>1</td><td><div class="label2"><input type="number" min="0" max="100" id="4VS1" value="65"></div></td></tr><tr><td>VS2</td><td>COE222</td><td>Programming II</td><td>1</td><td><div class="label2"><input type="number" min="0" max="100" id="4VS2" value="80"></div></td></tr></tbody></table>
+
+      <table class="table table-hover sem-marks" id="marksOf5" ><caption> Semester5</caption><thead><tr><th>#</th><th>Code</th><th>Name</th><th>Credits</th><th>Marks</th></tr></thead><tbody><tr><td>TH1</td><td>COE301</td><td>Principles of Computer Graphics</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="5TH1" value="72"></div></td></tr><tr><td>TH2</td><td>COE302</td><td>Discrete Maths and Design of Alg.</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="5TH2" value="68"></div></td></tr><tr><td>TH3</td><td>COE303</td><td>Computer System Org.</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="5TH3" value="42"></div></td></tr><tr><td>TH4</td><td>COE304</td><td>Linear Integrated Circuits</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="5TH4" value="60"></div></td></tr><tr><td>TH5</td><td>COE305</td><td>Industrial Org. and Mana. Eco.</td><td>4</td><td><div class="label2"><input type="number" min="0" max="100" id="5TH5" value="75"></div></td></tr><tr><td>PR1</td><td>COE306</td><td>Computer System Org.</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="5PR1" value="55"></div></td></tr><tr><td>PR2</td><td>COE307</td><td>Linear Integrated Circuits</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="5PR2" value="81"></div></td></tr><tr><td>PR3</td><td>COE308</td><td>Principles of Computer Graphics</td><td>2</td><td><div class="label2"><input type="number" min="0" max="100" id="5PR3" value="50"></div></td></tr><tr><td>VS1</td><td>COE309</td><td>Programming III</td><td>1</td><td><div class="label2"><input type="number" min="0" max="100" id="5VS1" value="83"></div></td></tr></tbody></table>
+
+
+
+
+      <div class="highcharts-container" id="highcharts-12" style="position: relative; overflow: hidden; width: 610px; height: 400px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+      <svg version="1.1" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="610" height="400"><desc>Created with Highcharts 4.1.8 /Highstock 2.1.8</desc><defs><clippath id="highcharts-13"><rect x="0" y="0" width="425" height="320"></rect></clippath></defs><rect x="0" y="0" width="610" height="400" strokeWidth="0" fill="#FFFFFF" class=" highcharts-background"></rect><g class="highcharts-grid" zIndex="1"></g><g class="highcharts-grid" zIndex="1"><path fill="none" d="M 61 365.5 L 486 365.5" stroke="#D8D8D8" stroke-width="1" zIndex="1" opacity="1"></path><path fill="none" d="M 61 301.5 L 486 301.5" stroke="#D8D8D8" stroke-width="1" zIndex="1" opacity="1"></path><path fill="none" d="M 61 237.5 L 486 237.5" stroke="#D8D8D8" stroke-width="1" zIndex="1" opacity="1"></path><path fill="none" d="M 61 173.5 L 486 173.5" stroke="#D8D8D8" stroke-width="1" zIndex="1" opacity="1"></path><path fill="none" d="M 61 109.5 L 486 109.5" stroke="#D8D8D8" stroke-width="1" zIndex="1" opacity="1"></path><path fill="none" d="M 61 44.5 L 486 44.5" stroke="#D8D8D8" stroke-width="1" zIndex="1" opacity="1"></path></g><g class="highcharts-axis" zIndex="2"><path fill="none" d="M 145.5 365 L 145.5 375" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 230.5 365 L 230.5 375" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 315.5 365 L 315.5 375" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 400.5 365 L 400.5 375" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 486.5 365 L 486.5 375" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 60.5 365 L 60.5 375" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 61 365.5 L 486 365.5" stroke="#C0D0E0" stroke-width="1" zIndex="7" visibility="visible"></path></g><g class="highcharts-axis" zIndex="2"><text x="23.765625" zIndex="7" text-anchor="middle" transform="translate(0,0) rotate(270 23.765625 205)" class=" highcharts-yaxis-title" style="color:#707070;fill:#707070;" visibility="visible" y="205">Values</text></g><g class="highcharts-series-group" zIndex="3"><g class="highcharts-series" visibility="visible" zIndex="0.1" transform="translate(61,45) scale(1 1)" clip-path="url(#highcharts-13)"><path fill="none" d="M 42.5 86.0689655172414 L 127.5 205.71428571428578 L 212.5 40.5333333333333 L 297.5 237 L 382.5 261.92592592592587" stroke="#7cb5ec" stroke-width="2" zIndex="1" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 32.5 86.0689655172414 L 42.5 86.0689655172414 L 127.5 205.71428571428578 L 212.5 40.5333333333333 L 297.5 237 L 382.5 261.92592592592587 L 392.5 261.92592592592587" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" zIndex="2" class=" highcharts-tracker" style=""></path></g><g class="highcharts-markers highcharts-tracker" visibility="visible" zIndex="0.1" transform="translate(61,45) scale(1 1)" clip-path="url(#highcharts-14)" style=""><path fill="#7cb5ec" d="M 382 257.92592592592587 C 387.328 257.92592592592587 387.328 265.92592592592587 382 265.92592592592587 C 376.672 265.92592592592587 376.672 257.92592592592587 382 257.92592592592587 Z"></path><path fill="#7cb5ec" d="M 297 233 C 302.328 233 302.328 241 297 241 C 291.672 241 291.672 233 297 233 Z"></path><path fill="#7cb5ec" d="M 212 36.5333333333333 C 217.328 36.5333333333333 217.328 44.5333333333333 212 44.5333333333333 C 206.672 44.5333333333333 206.672 36.5333333333333 212 36.5333333333333 Z"></path><path fill="#7cb5ec" d="M 127 201.71428571428578 C 132.328 201.71428571428578 132.328 209.71428571428578 127 209.71428571428578 C 121.672 209.71428571428578 121.672 201.71428571428578 127 201.71428571428578 Z"></path><path fill="#7cb5ec" d="M 42 82.0689655172414 C 47.328 82.0689655172414 47.328 90.0689655172414 42 90.0689655172414 C 36.672 90.0689655172414 36.672 82.0689655172414 42 82.0689655172414 Z"></path></g><g class="highcharts-series" visibility="visible" zIndex="0.1" transform="translate(61,45) scale(1 1)" clip-path="url(#highcharts-13)"><path fill="none" d="M 42.5 86.0689655172414 L 127.5 144.84210526315792 L 212.5 108.8735632183907 L 297.5 143.3277310924368 L 382.5 165.2602739726026" stroke="#434348" stroke-width="2" zIndex="1" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 32.5 86.0689655172414 L 42.5 86.0689655172414 L 127.5 144.84210526315792 L 212.5 108.8735632183907 L 297.5 143.3277310924368 L 382.5 165.2602739726026 L 392.5 165.2602739726026" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" zIndex="2" class=" highcharts-tracker" style=""></path></g><g class="highcharts-markers highcharts-tracker" visibility="visible" zIndex="0.1" transform="translate(61,45) scale(1 1)" clip-path="url(#highcharts-14)" style=""><path fill="#434348" d="M 382 161.2602739726026 L 386 165.2602739726026 382 169.2602739726026 378 165.2602739726026 Z"></path><path fill="#434348" d="M 297 139.3277310924368 L 301 143.3277310924368 297 147.3277310924368 293 143.3277310924368 Z"></path><path fill="#434348" d="M 212 104.8735632183907 L 216 108.8735632183907 212 112.8735632183907 208 108.8735632183907 Z"></path><path fill="#434348" d="M 127 140.84210526315792 L 131 144.84210526315792 127 148.84210526315792 123 144.84210526315792 Z"></path><path fill="#434348" d="M 42 82.0689655172414 L 46 86.0689655172414 42 90.0689655172414 38 86.0689655172414 Z"></path></g></g><text x="285" text-anchor="middle" class="highcharts-title" zIndex="4" style="color:#333333;font-size:18px;fill:#333333;width:546px;" y="24"><tspan>Percentage Throughout The Semesters</tspan></text><g class="highcharts-legend" zIndex="7" transform="translate(498,178)"><g zIndex="1"><g><g class="highcharts-legend-item" zIndex="1" transform="translate(8,3)"><path fill="none" d="M 0 11 L 16 11" stroke="#7cb5ec" stroke-width="2"></path><path fill="#7cb5ec" d="M 8 7 C 13.328 7 13.328 15 8 15 C 2.6719999999999997 15 2.6719999999999997 7 8 7 Z"></path><text x="21" style="color:#333333;font-size:12px;font-weight:bold;cursor:pointer;fill:#333333;" text-anchor="start" zIndex="2" y="15">Percentage</text></g><g class="highcharts-legend-item" zIndex="1" transform="translate(8,17)"><path fill="none" d="M 0 11 L 16 11" stroke="#434348" stroke-width="2"></path><path fill="#434348" d="M 8 7 L 12 11 8 15 4 11 Z"></path><text x="21" y="15" style="color:#333333;font-size:12px;font-weight:bold;cursor:pointer;fill:#333333;" text-anchor="start" zIndex="2">Aggregate</text></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels" zIndex="7"><text x="103.5" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:75px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="384" opacity="1">Sem1</text><text x="188.5" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:75px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="384" opacity="1">Sem2</text><text x="273.5" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:75px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="384" opacity="1">Sem3</text><text x="358.5" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:75px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="384" opacity="1">Sem4</text><text x="443.5" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:75px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="384" opacity="1">Sem5</text></g><g class="highcharts-axis-labels highcharts-yaxis-labels" zIndex="7"><text x="46" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:191px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="370" opacity="1">62</text><text x="46" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:191px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="306" opacity="1">64</text><text x="46" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:191px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="242" opacity="1">66</text><text x="46" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:191px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="178" opacity="1">68</text><text x="46" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:191px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="114" opacity="1">70</text><text x="46" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:191px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="50" opacity="1">72</text></g><g class="highcharts-tooltip" zIndex="8" style="cursor:default;padding:0;white-space:nowrap;" transform="translate(0,-9999)"><path fill="none" d="M 3.5 0.5 L 13.5 0.5 C 16.5 0.5 16.5 0.5 16.5 3.5 L 16.5 13.5 C 16.5 16.5 16.5 16.5 13.5 16.5 L 3.5 16.5 C 0.5 16.5 0.5 16.5 0.5 13.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" isShadow="true" stroke="black" stroke-opacity="0.049999999999999996" stroke-width="5" transform="translate(1, 1)"></path><path fill="none" d="M 3.5 0.5 L 13.5 0.5 C 16.5 0.5 16.5 0.5 16.5 3.5 L 16.5 13.5 C 16.5 16.5 16.5 16.5 13.5 16.5 L 3.5 16.5 C 0.5 16.5 0.5 16.5 0.5 13.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" isShadow="true" stroke="black" stroke-opacity="0.09999999999999999" stroke-width="3" transform="translate(1, 1)"></path><path fill="none" d="M 3.5 0.5 L 13.5 0.5 C 16.5 0.5 16.5 0.5 16.5 3.5 L 16.5 13.5 C 16.5 16.5 16.5 16.5 13.5 16.5 L 3.5 16.5 C 0.5 16.5 0.5 16.5 0.5 13.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" isShadow="true" stroke="black" stroke-opacity="0.15" stroke-width="1" transform="translate(1, 1)"></path><path fill="rgba(249, 249, 249, .85)" d="M 3.5 0.5 L 13.5 0.5 C 16.5 0.5 16.5 0.5 16.5 3.5 L 16.5 13.5 C 16.5 16.5 16.5 16.5 13.5 16.5 L 3.5 16.5 C 0.5 16.5 0.5 16.5 0.5 13.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5"></path><text x="8" zIndex="1" style="font-size:12px;color:#333333;fill:#333333;" y="20"></text></g><text x="600" text-anchor="end" zIndex="8" style="cursor:pointer;color:#909090;font-size:9px;fill:#909090;" y="395">Highcharts.com</text></svg></div>
+
+      <table class="table table-hover"><thead><tr><th>Semester</th><th>Marks</th><th>Credits</th><th>Percentage</th></tr></thead><tbody><tr><td>1</td><td>2010</td><td>29</td><td>69.3103448275862</td></tr><tr><td>2</td><td>1836</td><td>28</td><td>65.57142857142857</td></tr><tr><td>3</td><td>2122</td><td>30</td><td>70.73333333333333</td></tr><tr><td>4</td><td>2067</td><td>32</td><td>64.59375</td></tr><tr><td>5</td><td>1723</td><td>27</td><td>63.81481481481482</td></tr></tbody></table>
+
+
+      <div class="panel panel-info">
+        <div class="panel-heading"><strong>Before Dropping</strong></div>
+        <div class="panel-body">
+          <dl class="dl-horizontal">
+        <dt>Overall Total Marks</dt>
+        <dd>9758</dd>
+        <dt>Overall Credits</dt>
+        <dd>146</dd>
+        <dt>Overall Percentage</dt>
+        <h3><dd>66.83561643835617</dd></h3>
+        </dl>
+      </div>
+      </div>
+      
+
+      <div class="panel panel-info">
+        <div class="panel-heading"><strong>Dropping following Subjects</strong></div>
+        <div class="panel-body">
+          <dl class="dl-horizontal">
+      <dl class="dl-horizontal">
+      <dt>Humanities</dt>
+      <dd>Mathematics II COE-113 (59)</dd>
+      <dt>Applied</dt>
+      <dd>Applied Mechanics COE-112 (58)</dd>
+      <dt>Core</dt>
+      <dd>Computer System Org. COE-303 (42)</dd>
+      </dl>
+      </div>
+      </div>
+
+
+      <div class="panel panel-info">
+        <div class="panel-heading"><strong>After Dropping</strong></div>
+        <div class="panel-body">
+      <dl class="dl-horizontal">
+      <dt>Overall Total Marks</dt>
+      <dd>9122</dd>
+      <dt>Overall Credits</dt>
+      <dd>134</dd>
+      <dt>Overall Percentage</dt>
+      <h3><dd>68.07462686567165</dd></h3>
+      </dl>
+      </div>
+      </div>
+
+
+      
+      <em><strong>*Note:</strong> Above dropped subjects have lowest marks in respective category,you may get a better percentage without dropping a subject if the marks scored in it are greater than your aggregate</em>
+    
+  
+
+ 
+
+</body></html>

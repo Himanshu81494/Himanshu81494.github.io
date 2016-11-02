@@ -1,0 +1,27 @@
+{
+  "name": "Himanshu Gautam",
+  "short_name": "himanshu81494",
+  "start_url": "/index.html?hs=true",
+  "icons":[{
+    "src": "icons/mdpi1x.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "icons/xhdpi2x.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  },{
+    "src": "icons/xxhdpi3x.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  },{
+    "src": "icons/xxxhdpi4x.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }],
+  "background_color": "#3E4EB8",
+  "theme_color": "#f3f3f3",
+  "display": "standalone"
+}
+
+

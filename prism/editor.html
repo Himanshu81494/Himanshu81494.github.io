@@ -52,7 +52,11 @@
       var session = editor.getSession();
       session.setUseWrapMode(true);
       session.setUseWorker(false);
-      session.setMode("ace/mode/c_cpp");
+      var lang = "c_cpp";
+      if(localStorage.getItem("acelang")){
+        lang = localStorage.getItem("acelang");
+      }
+      session.setMode("ace/mode/"+lang);
 
       //// Create Firepad.
       var firepad = Firepad.fromACE(firepadRef, editor, {
